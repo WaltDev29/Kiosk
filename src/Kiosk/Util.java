@@ -73,6 +73,7 @@ public class Util {
     }
     // 토핑 선택 화면
     static void printSelections(Bingsu bing) {
+        System.out.println("*** 상품정보 ***");
         System.out.printf("%-8s %5d원\n", bing.getName(), bing.getPrice());
 
         System.out.println("\n=== 토핑 (무료) ===");
